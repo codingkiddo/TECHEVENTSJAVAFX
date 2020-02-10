@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="579.0" prefWidth="605.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="techeventsappv2.InscriptionController">
+   <children>
+      <TextField fx:id="prenom" layoutX="168.0" layoutY="123.0" prefHeight="26.0" prefWidth="251.0" promptText="prenom" />
+      <TextField fx:id="nom" layoutX="168.0" layoutY="174.0" prefHeight="26.0" prefWidth="251.0" promptText="nom" />
+      <TextField fx:id="email" layoutX="168.0" layoutY="221.0" prefHeight="26.0" prefWidth="251.0" promptText="email" />
+      <TextField fx:id="age" layoutX="168.0" layoutY="274.0" prefHeight="26.0" prefWidth="240.0" promptText="age" />
+      <TextField fx:id="password" layoutX="168.0" layoutY="344.0" prefHeight="26.0" prefWidth="251.0" promptText="password" />
+      <TextField fx:id="passwordconfirm" layoutX="168.0" layoutY="401.0" prefHeight="26.0" prefWidth="251.0" />
+      <Button fx:id="btn" layoutX="441.0" layoutY="486.0" mnemonicParsing="false" onAction="#inscriptionAction" text="s'inscrire" />
+      <Button layoutX="325.0" layoutY="486.0" mnemonicParsing="false" onAction="#connexionAction" prefHeight="25.0" prefWidth="85.0" text="se connecter" />
+      <Text layoutX="59.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prenom ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="68.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="64.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="44.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mot de passe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="11.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirmer Mot de passe">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="104.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inscription Participant">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

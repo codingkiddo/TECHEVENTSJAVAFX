@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="techeventsappv2.HistoriqueController">
+   <children>
+      <TextField fx:id="searchText" layoutX="14.0" layoutY="27.0" prefHeight="25.0" prefWidth="215.0" />
+      <Button layoutX="262.0" layoutY="27.0" mnemonicParsing="false" onAction="#RechercherReservationParNomAction" prefHeight="25.0" prefWidth="190.0" text="Search" />
+      <TableView fx:id="paniertable" layoutX="14.0" layoutY="75.0" prefHeight="298.0" prefWidth="563.0">
+         <columns>
+            <TableColumn fx:id="datereserervationcolumn" prefWidth="119.0" text="Dateres" />
+            <TableColumn fx:id="quantitecolumn" prefWidth="64.0" text="quantite" />
+            <TableColumn fx:id="typecolumn" prefWidth="103.0" text="type" />
+            <TableColumn fx:id="seatcolumn" prefWidth="121.0" text="seat" />
+            <TableColumn fx:id="nomReservationcolumn" prefWidth="155.0" text="Evenement" />
+         </columns>
+      </TableView>
+      <TextField fx:id="idusertxt" layoutX="229.0" layoutY="374.0" prefHeight="25.0" prefWidth="125.0" />
+   </children>
+</AnchorPane>

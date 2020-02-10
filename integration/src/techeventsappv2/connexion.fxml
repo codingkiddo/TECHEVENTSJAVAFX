@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="techeventsappv2.ConnexionController">
+   <children>
+      <TextField fx:id="email" layoutX="201.0" layoutY="137.0" prefHeight="25.0" prefWidth="178.0" />
+      <TextField fx:id="pwd" layoutX="201.0" layoutY="188.0" prefHeight="25.0" prefWidth="178.0" />
+      <Button layoutX="201.0" layoutY="257.0" mnemonicParsing="false" onAction="#connexionAction" prefHeight="25.0" prefWidth="178.0" style="-fx-background-color: red;" text="connexion" textFill="#f8f8f8" />
+      <Text layoutX="107.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail" />
+      <Text layoutX="88.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mot de passe" />
+      <Hyperlink layoutX="226.0" layoutY="300.0" onAction="#gotoinscription" text="Creez un Compte" />
+      <Text layoutX="222.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN" wrappingWidth="155.29296875">
+         <font>
+            <Font name="Bodoni MT Black" size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
